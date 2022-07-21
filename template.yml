@@ -4,6 +4,7 @@ Description: ND9991 C3 L4
 Resources:
   EC2Instance:
     Type: 'AWS::EC2::Instance'
+    Name: 'AnisbleServer'
     Properties:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
